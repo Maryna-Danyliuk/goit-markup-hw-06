@@ -249,6 +249,8 @@ address {
   pointer-events: none;
 }
 .modal {
+  display: grid;
+  padding: 40px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -281,6 +283,98 @@ address {
 }
 .no-scroll {
   overflow: hidden;
+}
+.tittle {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+}
+.icon-modal {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 11px;
+  left: 12px;
+}
+
+.user {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--navigate-contacts-color);
+}
+.container-modal {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.input {
+  position: relative;
+  margin-top: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+}
+.area {
+  position: absolute;
+  bottom: 7px;
+  left: 42px;
+  right: 12px;
+  border: none;
+}
+.area:focus {
+  border: none;
+}
+.input-comment {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  margin-top: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+}
+.container-contract {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.btn-enter {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--background-color);
+  background-color: var(--logo-first-part-color-blue);
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  border-radius: 4px;
+}
+.check-btn {
+  width: 15px;
+  height: 15px;
+  color: #000000;
+}
+.container-modal-comment {
+  text-align: left;
+  margin-top: 10px;
+}
+.area-comment {
+  position: absolute;
+  top: 12px;
+  bottom: 12px;
+  left: 16px;
+  right: 16px;
+  border: none;
 }
 /* Benefits */
 .benefuts.container {
