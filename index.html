@@ -112,13 +112,9 @@
               <label class="user comment" for="comment-user"
                 ><span class="text-before-input">Комментарий</span>
               </label>
-              <div class="input-comment">
-                <textarea
-                  name="comment-user"
-                  id="comment-user"
-                  placeholder="Введите текст"
-                  class="area-comment"
-                ></textarea>
+              <div class="container-modal">
+                <textarea name="comment-user" id="comment-user" class="input-comment"></textarea>
+                <span class="enter-text">Введите текст</span>
               </div>
             </div>
 
@@ -131,7 +127,10 @@
                   required
                   class="check-btn"
                 />
-                <span> Соглашаюсь с рассылкой и принимаю <a href="*/">Условия договора</a> </span>
+                <span>
+                  Соглашаюсь с рассылкой и принимаю
+                  <a href="*/" class="link-contract">Условия договора</a>
+                </span>
               </label>
             </div>
             <button class="btn-enter" type="submit">Отправить</button>
