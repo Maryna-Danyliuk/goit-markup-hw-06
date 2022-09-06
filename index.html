@@ -76,36 +76,33 @@
             <strong class="tittle">Оставьте свои данные, мы вам перезвоним</strong>
             <div class="container-modal">
               <label class="user name"
-                ><span class="text-before-input">Имя</span> <br />
-                <div class="input name">
-                  <svg class="icon-modal">
-                    <use href="./images/modal-svg.svg#icon-person-black"></use>
-                  </svg>
+                ><span class="text-before-input">Имя</span>
 
-                  <input type="text" name="name-user" class="area" />
-                </div>
+                <svg class="icon-modal">
+                  <use href="./images/modal-svg.svg#icon-person-black"></use>
+                </svg>
+
+                <input type="text" name="name-user" class="input name" />
               </label>
             </div>
             <div class="container-modal">
               <label class="user tel email"
-                ><span class="text-before-input">Телефон </span><br />
-                <div class="input tel">
-                  <svg class="icon-modal">
-                    <use href="./images/modal-svg.svg#icon-phone-black"></use>
-                  </svg>
-                  <input type="tel" name="tel-user" class="area" />
-                </div>
+                ><span class="text-before-input">Телефон </span>
+
+                <svg class="icon-modal">
+                  <use href="./images/modal-svg.svg#icon-phone-black"></use>
+                </svg>
+                <input type="tel" name="tel-user" class="input tel" />
               </label>
             </div>
             <div class="container-modal">
               <label class="email user"
-                ><span class="text-before-input">Почта</span> <br />
-                <div class="input email">
-                  <svg class="icon-modal">
-                    <use href="./images/modal-svg.svg#icon-email-black"></use>
-                  </svg>
-                  <input type="email" name="email-user" class="area" />
-                </div>
+                ><span class="text-before-input">Почта</span>
+
+                <svg class="icon-modal">
+                  <use href="./images/modal-svg.svg#icon-email-black"></use>
+                </svg>
+                <input type="email" name="email-user" class="input email" />
               </label>
             </div>
             <div class="container-modal-comment">
@@ -113,8 +110,12 @@
                 ><span class="text-before-input">Комментарий</span>
               </label>
               <div class="container-modal">
-                <textarea name="comment-user" id="comment-user" class="input-comment"></textarea>
-                <span class="enter-text">Введите текст</span>
+                <textarea
+                  name="comment-user"
+                  id="comment-user"
+                  class="input-comment"
+                  placeholder="Введите текст"
+                ></textarea>
               </div>
             </div>
 
@@ -127,7 +128,7 @@
                   required
                   class="check-btn"
                 />
-                <span>
+                <span class="contract-text">
                   Соглашаюсь с рассылкой и принимаю
                   <a href="*/" class="link-contract">Условия договора</a>
                 </span>
@@ -632,8 +633,7 @@
         </div>
         <form class="footer-form">
           <label class="footer-label">
-            <span class="title-sent-footer">Подпишитесь на рассылку</span> <br />
-            <input type="text" class="input-footer" placeholder="Email" />
+            <span class="title-sent-footer">Подпишитесь на рассылку</span>
           </label>
           <button class="btn-sent">
             <span class="btn-sent-text">Подписаться</span>
