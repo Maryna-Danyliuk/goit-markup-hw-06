@@ -74,6 +74,7 @@
               </svg>
             </button>
             <strong class="tittle">Оставьте свои данные, мы вам перезвоним</strong>
+
             <div class="container-modal">
               <label class="user name"
                 ><span class="text-before-input">Имя</span>
@@ -106,28 +107,26 @@
               </label>
             </div>
             <div class="container-modal-comment">
-              <label class="user comment" for="comment-user"
-                ><span class="text-before-input">Комментарий</span>
-              </label>
-              <div class="container-modal">
-                <textarea
-                  name="comment-user"
-                  id="comment-user"
-                  class="input-comment"
-                  placeholder="Введите текст"
-                ></textarea>
-              </div>
+              <label class="user comment" for="comment-user">Комментарий </label>
+
+              <textarea
+                name="comment-user"
+                id="comment-user"
+                class="input-comment"
+                placeholder="Введите текст"
+              ></textarea>
             </div>
 
             <div class="container-contract">
-              <label class="contract-permit"
-                ><input
+              <label class="contract-permit">
+                <input
                   type="checkbox"
                   name="contract"
                   value="contract"
                   required
                   class="check-btn"
                 />
+                <span class="checkbox-item"></span>
                 <span class="contract-text">
                   Соглашаюсь с рассылкой и принимаю
                   <a href="*/" class="link-contract">Условия договора</a>
@@ -645,6 +644,6 @@
         </form>
       </div>
     </footer>
-    <script src="modal.js"></script>
+    <script src="./JS/modal.js"></script>
   </body>
 </html>
