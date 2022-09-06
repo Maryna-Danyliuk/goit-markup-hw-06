@@ -314,6 +314,7 @@ address {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: left;
+  transition: color var(--animation), border var(--animation), fill var(--animation);
 }
 .container-modal:focus .icon-modal,
 .container-modal:hover .icon-modal {
@@ -321,6 +322,9 @@ address {
 }
 .text-before-input {
   margin-bottom: 4px;
+}
+.text-before-input:last-child {
+  margin-bottom: -6px;
 }
 .input {
   position: relative;
@@ -370,6 +374,7 @@ address {
 .container-contract {
   margin-top: 20px;
   margin-bottom: 30px;
+  transition: color var(--animation);
 }
 .container-contract:hover,
 .container-contract:focus {
