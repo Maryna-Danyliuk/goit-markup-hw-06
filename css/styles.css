@@ -403,7 +403,10 @@ address {
 .check-btn {
   width: 15px;
   height: 15px;
-  color: #000000;
+  border-color: #000000;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .container-modal-comment {
