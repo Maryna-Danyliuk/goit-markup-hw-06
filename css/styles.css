@@ -251,7 +251,7 @@ address {
   display: grid;
   padding: 40px;
   position: absolute;
-  width: 528px;
+  width: 628px;
   height: 620px;
   top: 50%;
   left: 50%;
@@ -408,12 +408,17 @@ address {
   border-color: transparent;
 }
 .check-btn {
+  position: absolute;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
 }
 
-.checkbox-item {
+.contract-permit:checked + .checkbox {
+  border: none;
+  background-image: url(/images/icon\ check.jpg);
+}
+.checkbox {
   display: inline-block;
   width: 15px;
   height: 15px;
@@ -430,6 +435,7 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .contract-text {
   font-family: 'Roboto';
