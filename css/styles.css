@@ -229,6 +229,8 @@ address {
   background-color: var(--hover-add-service-btn-background);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+/* ======================================================================================================= */
+/* Modal */
 .backdrop {
   position: fixed;
   top: 0;
@@ -247,17 +249,36 @@ address {
   visibility: hidden;
   pointer-events: none;
 }
+/* ============ */
+.backdrop {
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.backdrop {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* =================== */
 .modal {
   display: grid;
   padding: 40px;
   position: absolute;
-  width: 628px;
-  height: 620px;
+  width: 528px;
+  height: 581px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  min-width: 528px;
-  min-height: 581px;
   background-color: var(--background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -412,14 +433,9 @@ address {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  transition: border var(--animation), background-image var(--animation);
+  transition: border var(--animation), background-color var(--animation);
 }
-
-.check-btn:checked + .checkbox {
-  border: none;
-  background-image: url(/images/icon\ check.jpg);
-}
-.checkbox {
+.container-contract_vector {
   display: inline-block;
   width: 15px;
   height: 15px;
@@ -429,6 +445,10 @@ address {
   border-radius: 4px;
   cursor: pointer;
   transition: all var(--animation);
+}
+.check-btn:checked + .container-contract_vector {
+  border: 2px solid var(--logo-first-part-color-blue);
+  background-color: var(--logo-first-part-color-blue);
 }
 
 .contract-permit {
@@ -463,6 +483,8 @@ address {
   line-height: 1.71;
   color: var(--navigate-contacts-color);
 }
+
+/* ====================================================================================================== */
 /* Benefits */
 .benefuts.container {
   padding-left: 0;
