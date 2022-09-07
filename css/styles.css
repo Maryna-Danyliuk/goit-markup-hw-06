@@ -445,6 +445,7 @@ address {
   border-radius: 4px;
   cursor: pointer;
   transition: all var(--animation);
+  fill: var(--background-color);
 }
 .check-btn:checked + .container-contract_vector {
   border: 2px solid var(--logo-first-part-color-blue);
