@@ -417,7 +417,7 @@ address {
 
 .check-btn:checked + .checkbox {
   border: none;
-  background-image: url(/images/icon\ check.jpg);
+  background-image: url(./images/icon\ check.jpg);
 }
 .checkbox {
   display: inline-block;
