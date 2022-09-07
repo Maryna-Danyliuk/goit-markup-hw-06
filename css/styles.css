@@ -436,7 +436,6 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
 }
 .contract-text {
   font-family: 'Roboto';
