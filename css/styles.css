@@ -412,6 +412,7 @@ address {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
+  transition: border var(--animation), background-image var(--animation);
 }
 
 .check-btn:checked + .checkbox {
