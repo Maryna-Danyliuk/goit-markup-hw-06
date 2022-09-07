@@ -414,7 +414,7 @@ address {
   appearance: none;
 }
 
-.contract-permit:checked + .checkbox {
+.check-btn:checked + .checkbox {
   border: none;
   background-image: url(/images/icon\ check.jpg);
 }
